@@ -1,5 +1,4 @@
 # WordPress Cloudflare WAF
-Cloudflare custom security rules yang saya pakai untuk menambah lapisan keamanan di situs WordPress.
 Pastikan **Orange Cloud** sudah aktif, buat custom security rules dengan konfigurasi berikut:
 * Rules name: ⁠`WordPress Hardening`. Boleh diisi nama lain, yang penting deskriptif.
 * Di bagian **When incoming requests match…**, klik **Edit Expression**, lalu copy-paste kode di bawah ini:
